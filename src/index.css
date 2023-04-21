@@ -13,8 +13,7 @@ header {
   border: 2px solid black;
   
   border-radius: 5px;
-  transition: box-shadow 0.3s;
-  box-shadow: 2px 5px 5px 1px black;
+  box-shadow: 2px 2px 2px 1px black;
 }
 
 h1 {
@@ -37,8 +36,7 @@ p {
   background-color: white;
   border: 1px;
   border-radius: 5px;
-  transition: box-shadow 0.3s;
-  box-shadow: 2px 5px 10px 2px black;
+  box-shadow: 2px 4px 6px 0px black;
 }
 
 #posts-index img {
@@ -71,4 +69,30 @@ input[type="file"] {
 #posts-show img {
 width: 300px;
 height: auto;
+}
+
+img {
+  border: 1px;
+  border-radius: 5px;
+  box-shadow: 2px 4px 6px 0px black;
+  
+}
+
+img:hover {
+  box-shadow: 2px 5px 10px 2px black;
+  transition: box-shadow 0.2s;
+}
+
+p:hover {
+  box-shadow: 4px 6px 10px 4px black;
+  transition: box-shadow 0.2s;
+}
+
+button {
+  box-shadow: 1px 2px 3px 1px black;
+}
+
+button:hover {
+  box-shadow: 1px 2px 3px 3px black;
+  transition: box-shadow 0.2s;
 }
