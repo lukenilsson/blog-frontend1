@@ -1,3 +1,5 @@
+import { useState } from "react";
+
 export function PostsIndex(props) {
   console.log(props);
 
